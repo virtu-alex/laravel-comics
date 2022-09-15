@@ -12,13 +12,6 @@ body {
   min-height: 100vh;
 }
 
-main {
-  padding: 2rem 0;
-  background-image: url("../images/background2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -57,7 +50,7 @@ header ul li a:hover, header ul li a:active {
   background-color: lightskyblue;
   height: 20px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 #jumbotron {
@@ -67,8 +60,13 @@ header ul li a:hover, header ul li a:active {
 }
 
 #main {
-  background-color: grey;
-  height: 600px;
+  background-color: #1C1C1C;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.card {
+  border: none;
 }
 
 footer {
@@ -102,4 +100,10 @@ footer ul li {
 }
 footer ul li a {
   text-decoration: none;
+}
+
+.card {
+  background-color: #1C1C1C;
+  padding-top: 10px;
+  color: white;
 }
