@@ -1,0 +1,34 @@
+header{
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    img{
+        max-width:70px;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0 50px;
+        li{
+            list-style-type: none;
+            font-weight: bold;
+            a{
+                padding: 10px;
+                text-decoration: none;
+                &:hover,
+                &:active{
+                    background-color: $primary-light;
+                }
+            }
+        }
+    }
+}
+.top-header{
+    background-color: lightskyblue;
+    height: 20px;
+    display: flex;
+    justify-content: end;
+}

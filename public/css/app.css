@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  min-height: 100vh;
+}
+
+main {
+  padding: 2rem 0;
+  background-image: url("../images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+header {
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+header img {
+  max-width: 70px;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0 50px;
+}
+header ul li {
+  list-style-type: none;
+  font-weight: bold;
+}
+header ul li a {
+  padding: 10px;
+  text-decoration: none;
+}
+header ul li a:hover, header ul li a:active {
+  background-color: lightblue;
+}
+
+.top-header {
+  background-color: lightskyblue;
+  height: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+#jumbotron {
+  height: 420px;
+  background-image: url(../images/jumbotron.jpg);
+  background-size: cover;
+}
+
+#main {
+  background-color: grey;
+  height: 600px;
+}
+
+footer {
+  min-height: 200px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: url(../images/mountains.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+footer .row {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+footer .row .col {
+  padding: 0 1rem;
+  flex-basis: 33.3333333333%;
+}
+footer h4 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  margin-bottom: 0.25rem;
+  font-size: 0.8rem;
+}
+footer ul li a {
+  text-decoration: none;
+}

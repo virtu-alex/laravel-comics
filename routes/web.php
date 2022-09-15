@@ -14,5 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home');
+})->name('series');
+
+Route::get('/main', function () {
+    $data = config('comics');
+    // dd($data);
+    return view('main', compact($data));
+})->name('series');
+
+// Route::get('/about', function () {
+//     return view('about');
+// })->name('about');
+
+// Route::get('/contacts', function () {
+//     return view('contacts');
+// })->name('contacts');
