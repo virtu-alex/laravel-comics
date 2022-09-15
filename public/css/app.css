@@ -61,7 +61,6 @@ header ul li a:hover, header ul li a:active {
 
 #main {
   background-color: #1C1C1C;
-  padding-bottom: 20px;
   padding-top: 20px;
 }
 
@@ -69,22 +68,17 @@ header ul li a:hover, header ul li a:active {
   border: none;
 }
 
+#digitals img {
+  width: 50px;
+  height: 60px;
+}
+
 footer {
-  min-height: 200px;
   padding-top: 3rem;
-  padding-bottom: 3rem;
-  background-image: url(../images/mountains.jpg);
-  background-position: bottom;
+  background-image: url(../images/footer-bg.jpg);
   background-repeat: no-repeat;
-}
-footer .row {
-  margin-bottom: 3rem;
-  display: flex;
-  justify-content: space-between;
-}
-footer .row .col {
-  padding: 0 1rem;
-  flex-basis: 33.3333333333%;
+  background-size: contain;
+  overflow: hidden;
 }
 footer h4 {
   font-weight: bold;
@@ -100,6 +94,26 @@ footer ul li {
 }
 footer ul li a {
   text-decoration: none;
+}
+
+.dc-bg {
+  background-repeat: no-repeat;
+  background-image: url("img/dc-logo-bg.png");
+  width: 570px;
+  height: 510px;
+  transform: translate(60px, -28%);
+}
+
+.bottom-footer {
+  height: 150px;
+  background-color: #303030;
+}
+.bottom-footer .sign-up {
+  font-weight: bold;
+  padding: 15px;
+  border: 3px solid #13538F;
+  background-color: #303030;
+  color: white;
 }
 
 .card {

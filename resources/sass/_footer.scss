@@ -1,20 +1,9 @@
 footer{
-    min-height: 200px;
     padding-top: 3rem;
-    padding-bottom: 3rem;
-    background-image: url(../images/mountains.jpg);
-    background-position: bottom;
+    background-image: url(../images/footer-bg.jpg);
     background-repeat: no-repeat;
-    .row{
-        margin-bottom:3rem;
-        display: flex;
-        justify-content: space-between;
-        .col{
-            padding: 0 1rem;
-            flex-basis: calc(100% / 3)
-        }
-    }
-
+    background-size: contain;
+    overflow: hidden;
     h4{
         font-weight: bold;
         margin-bottom: 1rem;
@@ -29,5 +18,24 @@ footer{
                 text-decoration: none;
             }
         }
+    }
+}
+
+.dc-bg{
+    background-repeat: no-repeat;
+    background-image: url('img/dc-logo-bg.png');
+    width: 570px;
+    height: 510px;
+    transform: translate(60px, -28%);
+}
+.bottom-footer{
+    height: 150px;
+    background-color: #303030;
+    .sign-up{
+        font-weight: bold;
+        padding: 15px;
+        border: 3px solid #13538F;
+        background-color: #303030;
+        color: white;
     }
 }
