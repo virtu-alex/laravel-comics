@@ -6,7 +6,7 @@ $series = config('comics');
         <div class="row text-center">
             @foreach ($series as $serie)
                 <div class="card col-2 gy-3">
-                    <img src="{{ $serie['thumb'] }}" alt="">
+                    <a href="{{ route('details', ['id' => $loop->index]) }}"><img src="{{ $serie['thumb'] }}" alt=""></a>
                     <span class="pt-3">{{ $serie['series'] }}</span>
                 </div>
             @endforeach

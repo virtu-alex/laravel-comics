@@ -20,13 +20,11 @@ Route::get('/', function () {
 Route::get('/main', function () {
     $data = config('comics');
     // dd($data);
-    return view('main', compact($data));
+    return view('main', compact('data'));
 })->name('series');
 
-// Route::get('/about', function () {
-//     return view('about');
-// })->name('about');
-
-// Route::get('/contacts', function () {
-//     return view('contacts');
-// })->name('contacts');
+Route::get('/details/{id}' , function($id){
+    $products = config('comics');
+    $product = $products[$id];
+    return view('details', compact('product'));
+})->name('details');
