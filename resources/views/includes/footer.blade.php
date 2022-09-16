@@ -1,76 +1,72 @@
 <footer>
-    <div class="container position-relative">
-        <div class="row text-white ">
-            <div class="col-2">
-                <ul>
-                    <li><strong>DC COMICS</strong></li>
-                    <li>Characters</li>
-                    <li>Comics</li>
-                    <li>Movies</li>
-                    <li>TV</li>
-                    <li>Games</li>
-                    <li>Videos</li>
-                    <li>News</li>
-                </ul>
-                <ul>
-                    <li><strong>SHOP</strong></li>
-                    <li>Shop DC</li>
-                    <li>Shop DC Collectibles</li>
-                </ul>
-            </div>
-            <div class="col-2">
-                <ul>
-                    <li><strong>DC</strong></li>
-                    <li>Terms Of Use</li>
-                    <li>Privacy policy (new)</li>
-                    <li>Ad Choices</li>
-                    <li>Advertising</li>
-                    <li>Jobs</li>
-                    <li>Subscription</li>
-                    <li>Talents Workshops</li>
-                    <li>CPSC Certificates</li>
-                    <li>Ratings</li>
-                    <li>Shop Help</li>
-                    <li>Contact Us</li>
-                </ul>
-            </div>
-            <div class="col-2">
-                <ul>
-                    <li><strong>SITES</strong></li>
-                    <li>DC</li>
-                    <li>MAD Magazine</li>
-                    <li>DC Kids</li>
-                    <li>DC Universe</li>
-                    <li>DC Power Visa</li>
-                </ul>
-            </div>
+    <div class="container">
+        <!-- footer top -->
+        <div class="row">
             <div class="col-6">
-                <img class="dc-bg" src="{{ asset('images/dc-logo-bg.png') }}" alt="">
+                <div class="row">
+                    <div class="col-4">
+                        <h4>DC COMICS</h4>
+                        <ul>
+                            <li><a href="">Characters</a></li>
+                            <li><a href="">Comics</a></li>
+                            <li><a href="">Movies</a></li>
+                            <li><a href="">TV</a></li>
+                            <li><a href="">Games</a></li>
+                            <li><a href="">Video</a></li>
+                            <li><a href="">News</a></li>
+                        </ul>
+                        <h4>SHOP</h4>
+                        <ul>
+                            <li><a href="">Shop DC</a></li>
+                            <li><a href="">Shop DC Collectibles</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <h4>DC</h4>
+                        <ul>
+                            <li><a href="">Term Of Use</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Ad Choices</a></li>
+                            <li><a href="">Ad</a></li>
+                            <li><a href="">Jobs</a></li>
+                            <li><a href="">Subscription</a></li>
+                            <li><a href="">Talent Worshops</a></li>
+                            <li><a href="">CPSC Certificates</a></li>
+                            <li><a href="">Rating</a></li>
+                            <li><a href="">Shop Help</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <h4>SITES</h4>
+                        <ul>
+                            <li><a href="">DC</a></li>
+                            <li><a href="">MAD Magazines</a></li>
+                            <li><a href="">DC Kids</a></li>
+                            <li><a href="">DC Universe</a></li>
+                            <li><a href="">DC Power Visa</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 dc-logo">
             </div>
         </div>
     </div>
-    <section class="bottom-footer">
-        <div class="container h-100">
-            <div class="row align-items-center h-100">
-                <div class="col-7">
-                    <button class="sign-up">
-                        SIGN-UP NOW
-                    </button>
-                </div>
-                <div class="col-5 d-flex">
-                    <div>
-                        <h3 class="text-primary">FOLLOW US</h3>
-                    </div>
-                    <div class="px-2"><img src="{{ asset('/images/footer-facebook.png') }}" alt="footer-facebook">
-                    </div>
-                    <div class="px-2"><img src="{{ asset('/images/footer-twitter.png') }}" alt="footer-twitter"></div>
-                    <div class="px-2"><img src="{{ asset('/images/footer-youtube.png') }}" alt="footer-youtube"></div>
-                    <div class="px-2"><img src="{{ asset('/images/footer-pinterest.png') }}" alt="footer-pinterest">
-                    </div>
-                    <div class="px-2"><img src="{{ asset('/images/footer-periscope.png') }}" alt="footer-periscope">
-                    </div>
+    <!-- footer bottom -->
+    <div id="bottom-footer">
+        <div class="container">
+            <div class="d-flex">
+                <a href="#" id="sign-up"> SIGN UP NOW</a>
+                <div class="d-flex">
+                    <h4><a href="#">FOLLOW US</a></h4>
+                    <a href="#"><img src="../images/footer-facebook.png" alt="logo social facebook"></a>
+                    <a href="#"><img src="../images/footer-periscope.png" alt="logo social periscope"></a>
+                    <a href="#"><img src="../images/footer-pinterest.png" alt="logo social pinterest"></a>
+                    <a href="#"><img src="../images/footer-twitter.png" alt="logo social twitter"></a>
+                    <a href="#"><img src="../images/footer-youtube.png" alt="logo social youtube"></a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 </footer>

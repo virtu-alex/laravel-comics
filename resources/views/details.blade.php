@@ -11,26 +11,26 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container py-5">
         <div class="row">
             <div class="col">
-                <p>{{ $product['title'] }}</p>
+                <p class="title">{{ $product['title'] }}</p>
             </div>
         </div>
         <div class="row">
             <div class="bg-white text-dark col-8">
-                <div class="row bg-success price align-items-center">
-                    <div class="col-8 text-white border">
+                <div class="row bg-success mx-1 price align-items-center">
+                    <div class="col-8 py-2 text-white border-right h-100">
                         <span>U.S. Price: {{ $product['price'] }}</span>
                     </div>
                     <div class="col-4">
-                        <span>Check Availability</span>
+                        <span class="text-white">Check Availability</span>
                     </div>
                 </div>
                 <p>{{ $product['description'] }}</p>
             </div>
-            <div class="col-4">
-                <h4>ADVERTISEMENT</h4>
+            <div class="col-4 text-right">
+                <h4 class="text-secondary adv">ADVERTISEMENT</h4>
                 <img src="{{ asset('../images/madv.jpg') }}" alt="">
             </div>
 
@@ -44,7 +44,9 @@
                     <div class="row m-0 border-bottom py-2">
 
                         <div class="col-3">
-                            Art by:
+                            <span>
+                                Art by:
+                            </span>
                         </div>
                         <div class="col-9">
                             @foreach ($product['artists'] as $artist)

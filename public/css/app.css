@@ -90,45 +90,66 @@ header ul li a:hover, header ul li a:active {
   background-color: #f6f6f6;
 }
 
+.title {
+  color: #003F7C;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.adv {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
 footer {
-  padding-top: 3rem;
-  background-image: url(/images/footer-bg.jpg);
+  background-image: url("../images/footer-bg.jpg");
   background-repeat: no-repeat;
+  background-position: right;
   background-size: cover;
-  overflow: hidden;
+}
+footer .col-4 {
+  padding-top: 40px;
 }
 footer h4 {
-  font-weight: bold;
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
+  color: white;
+  margin: 10px 0;
+  font-size: 16px;
 }
 footer ul {
-  list-style-type: none;
-}
-footer ul li {
-  margin-bottom: 0.25rem;
-  font-size: 0.8rem;
+  padding-left: 0;
 }
 footer ul li a {
-  text-decoration: none;
+  color: gray;
+  font-size: 12px;
 }
-
-.dc-bg {
+footer .dc-logo {
+  background-image: url("../images/dc-logo-bg.png");
   background-repeat: no-repeat;
-  background-image: url("img/dc-logo-bg.png");
-  transform: translate(60px, -28%);
+  background-position: center;
 }
-
-.bottom-footer {
-  height: 150px;
-  background-color: #303030;
+footer #bottom-footer {
+  background-color: #343434;
+  height: 88px;
+  padding: 23px;
 }
-.bottom-footer .sign-up {
-  font-weight: bold;
-  padding: 15px;
-  border: 3px solid #13538F;
-  background-color: #303030;
+footer #bottom-footer #sign-up {
   color: white;
+  border: 2px solid dodgerblue;
+  padding: 10px;
+  transition: 0.7s;
+}
+footer #bottom-footer #sign-up:hover, footer #bottom-footer #sign-up:active {
+  background-color: dodgerblue;
+}
+footer #bottom-footer .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer #bottom-footer .d-flex img {
+  margin-left: 15px;
+  width: 21px;
 }
 
 .card {
