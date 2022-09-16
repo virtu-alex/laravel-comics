@@ -5,5 +5,4 @@
 @include('includes.jumbotron')
 @yield('body')
 @include('includes.footer')
-
 </html>

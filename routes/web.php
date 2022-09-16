@@ -23,8 +23,11 @@ Route::get('/main', function () {
     return view('main', compact('data'));
 })->name('series');
 
-Route::get('/details/{id}' , function($id){
+Route::get('/details/{id}', function ($id) {
     $products = config('comics');
+    if (!is_numeric($id) || $id < 0 || $id >= count($products)) {
+        abort(404);
+    }
     $product = $products[$id];
     return view('details', compact('product'));
 })->name('details');

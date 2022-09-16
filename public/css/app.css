@@ -73,11 +73,28 @@ header ul li a:hover, header ul li a:active {
   height: 60px;
 }
 
+.detail-image {
+  transform: translateY(-75%);
+}
+
+.detail-col {
+  height: 100px;
+}
+
+.price {
+  height: 50px;
+}
+
+.talent-specs {
+  height: 500px;
+  background-color: #f6f6f6;
+}
+
 footer {
   padding-top: 3rem;
-  background-image: url(../images/footer-bg.jpg);
+  background-image: url(/images/footer-bg.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   overflow: hidden;
 }
 footer h4 {
@@ -99,8 +116,6 @@ footer ul li a {
 .dc-bg {
   background-repeat: no-repeat;
   background-image: url("img/dc-logo-bg.png");
-  width: 570px;
-  height: 510px;
   transform: translate(60px, -28%);
 }
 

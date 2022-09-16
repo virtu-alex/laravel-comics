@@ -1,8 +1,8 @@
 footer{
     padding-top: 3rem;
-    background-image: url(../images/footer-bg.jpg);
+    background-image: url(/images/footer-bg.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     overflow: hidden;
     h4{
         font-weight: bold;
@@ -20,12 +20,9 @@ footer{
         }
     }
 }
-
 .dc-bg{
     background-repeat: no-repeat;
     background-image: url('img/dc-logo-bg.png');
-    width: 570px;
-    height: 510px;
     transform: translate(60px, -28%);
 }
 .bottom-footer{
