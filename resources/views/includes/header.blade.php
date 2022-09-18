@@ -1,6 +1,10 @@
 <div class="top-header">
-    <div class="container row">
-        <span>DC Power Visa ADDITIONAL DC SITES</span>
+    <div class="container">
+        <div class="row">
+            <div class="col ">
+                <span class="text-end">DC Power Visa ADDITIONAL DC SITES</span>
+            </div>
+        </div>
     </div>
 </div>
 <header>

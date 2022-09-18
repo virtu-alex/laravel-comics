@@ -47,10 +47,11 @@ header ul li a:hover, header ul li a:active {
 }
 
 .top-header {
-  background-color: lightskyblue;
+  background-color: dodgerblue;
   height: 20px;
   display: flex;
   justify-content: flex-end;
+  color: white;
 }
 
 #jumbotron {
@@ -105,11 +106,8 @@ header ul li a:hover, header ul li a:active {
 footer {
   background-image: url("../images/footer-bg.jpg");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: top;
   background-size: cover;
-}
-footer .col-4 {
-  padding-top: 40px;
 }
 footer h4 {
   color: white;
@@ -126,12 +124,12 @@ footer ul li a {
 footer .dc-logo {
   background-image: url("../images/dc-logo-bg.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position-y: center;
 }
 footer #bottom-footer {
   background-color: #343434;
-  height: 88px;
-  padding: 23px;
+  height: 90px;
+  padding: 30px;
 }
 footer #bottom-footer #sign-up {
   color: white;
@@ -142,14 +140,27 @@ footer #bottom-footer #sign-up {
 footer #bottom-footer #sign-up:hover, footer #bottom-footer #sign-up:active {
   background-color: dodgerblue;
 }
-footer #bottom-footer .d-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+.icon {
+  width: 37px;
+  height: 37px;
+  overflow: hidden;
 }
-footer #bottom-footer .d-flex img {
-  margin-left: 15px;
-  width: 21px;
+.icon img.first {
+  position: relative;
+  left: 0px;
+}
+.icon img.second {
+  position: relative;
+  left: -37px;
+}
+.icon img.third {
+  position: relative;
+  left: -74px;
+}
+.icon img.fourth {
+  position: relative;
+  left: -111px;
 }
 
 .card {

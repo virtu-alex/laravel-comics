@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="container py-5">
-        <div class="row">
+        <div class="row w-50">
             <div class="col">
                 <p class="title">{{ $product['title'] }}</p>
             </div>
@@ -93,7 +93,6 @@
                         </div>
                         <div class="col-9">
                             <span class="fw-bold">{{ $product['sale_date'] }}</span>
-
                         </div>
                     </div>
                 </div>
@@ -101,4 +100,33 @@
 
         </div>
     </section>
+    <div class="container">
+        <div class="row text-secondary fw-bold">
+            <div class="col-3 p-4 d-flex justify-content-between border">
+                <span>DIGITAL COMICS</span>
+                <div class="icon">
+                    <img class="first" src="{{ asset('../images/cta-icons.png') }}" alt="">
+                </div>
+            </div>
+            <div class="col-3 p-4 d-flex justify-content-between border">
+                <span>SHOP DC</span>
+                <div class="icon">
+                    <img class="second" src="{{ asset('../images/cta-icons.png') }}" alt="">
+                </div>
+            </div>
+            <div class="col-3 p-4 d-flex justify-content-between border">
+                <span>COMIC SHOP LOCATOR</span>
+                <div class="icon">
+                    <img class="third" src="{{ asset('../images/cta-icons.png') }}" alt="">
+                </div>
+            </div>
+            <div class="col-3 p-4 d-flex justify-content-between border">
+                <span>SUBSCRIPTION</span>
+                <div class="icon">
+                    <img class="fourth" src="{{ asset('../images/cta-icons.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 @endsection
