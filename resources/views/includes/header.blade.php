@@ -1,8 +1,8 @@
 <div class="top-header">
     <div class="container">
         <div class="row">
-            <div class="col ">
-                <span class="text-end">DC Power Visa ADDITIONAL DC SITES</span>
+            <div class="col d-flex justify-content-end">
+                <span>DC Power Visa ADDITIONAL DC SITES</span>
             </div>
         </div>
     </div>
@@ -11,7 +11,6 @@
     <img src="{{ asset('images/dc-logo.png') }}" alt="">
     <ul>
         <li>
-            {{-- <a href="{{ route('home') }}">Home</a> --}}
             <a href="">Characters</a>
             <a href="">Comics</a>
             <a href="">Movies</a>
